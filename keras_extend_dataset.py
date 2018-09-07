@@ -17,7 +17,7 @@ datagen = ImageDataGenerator(
         fill_mode='nearest'           # {"constant", "nearest", "reflect" or "wrap"} 之一。默认为 'nearest'。输入边界以外的点根据给定的模式填充
 )
 
-train_corn_dir = 'C:\\Users\\wangjipeng.IMAGEDESIGN\\Desktop\\开题相关\\data\\train\\leaf_blight'
+train_corn_dir = 'C:\\Users\\data\\train\\leaf_blight'
 fname = [os.path.join(train_corn_dir, fname) for fname in os.listdir(train_corn_dir)]
 # 选择一个图像
 img_path = fname[0]
